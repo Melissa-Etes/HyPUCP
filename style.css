@@ -1,0 +1,150 @@
+body {
+  background-color: #fff;
+}
+
+.primeira {
+  margin-left: 43px;
+  margin-top: 30px;
+  color: #000;
+}
+
+.primeira h1 {
+  font-family: Roboto;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  backdrop-filter: blur(2px);
+}
+
+.primeira p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3;
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+}
+
+.line {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-skip-ink: auto;
+}
+
+.segunda {
+  position: absolute; /* Posiciona o elemento de forma absoluta */
+  top: 0; /* Alinha o elemento com o topo da página */
+  right: 0; /* Alinha o elemento com a margem direita da página */
+  padding-right: 220px;
+}
+
+.segunda h3 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.segunda img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  padding-left: 40px;
+}
+
+.terceira h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.7;
+}
+
+.terceira {
+  display: flex;
+  width: 864px;
+  height: 235px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.terceira button {
+  width: 620px;
+  height: 59px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--iris-100, #5d5fef);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.terceira p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3;
+  margin-right: 300px
+}
+
+.quarta {
+  position: fixed; /* Use 'fixed' para manter a seção no lugar enquanto a página é rolada */
+  bottom: 0; /* Alinha a seção com a parte inferior da página */
+  right: 0;
+  padding-right: 100px;
+  background: url("./assets/Screenshot\ 2022-01-24\ 16.32\ 1.png") center center
+    no-repeat;
+  width: 604px;
+  height: 500px;
+  flex-shrink: 0;
+  padding-bottom: 300px;
+  
+}
+
+
+.quarta p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  flex-shrink: 0;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 23px;
+  position: relative;
+  border-radius: 10px;
+  background: var(--fuschia-80, #f178b6);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 420px;
+  height: 115px;
+  flex-shrink: 0;
+  margin-top: 500px;
+  margin-left: 236px;
+  
+}
